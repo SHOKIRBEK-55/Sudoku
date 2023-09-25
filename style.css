@@ -1,0 +1,58 @@
+
+body {
+ display: grid;
+ place-content: center;
+ }
+
+ .container {
+  width: 450px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+ }
+ .box {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1.5px solid black;
+
+ }
+ .item {
+ display: grid;
+ font-size: 38px;
+ border: 1px solid rgb(93, 93, 93);
+ place-content: center;
+ }
+ .col input{
+  width: 300px;
+  height: 40px;
+ display: grid;
+ place-content: center;
+ font-size: 20px;
+ border-radius: 15px;
+ position: relative;
+ left: 70px;
+ top: 15px;
+ color: rgb(8, 8, 8);;
+ }
+
+ .btn {
+ position: relative;
+ width: 40px;
+ height: 40px;
+ top: -28px;
+ left: 334px;
+ border-radius: 10px;
+ background-color: rgb(2, 251, 81);;
+ color: aliceblue;
+ }
+ .item {
+  display: grid;
+  place-items: center;
+
+ }
+ .item.light-blue {
+  background-color: rgb(2, 251, 81);
+ }
